@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_with	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
@@ -10,8 +10,8 @@ Summary(pl):	Data::Password - rozszerzenie Perla zapewniaj±ce odpowiedni± jako¶æ
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.04
 Release:	1
-# note if it is "same as perl"
-License:	(enter GPL/LGPL/BSD/BSD-like/Artistic/other license name here)
+# same as perl
+License:	GPL v1+ or Artistic	
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c62d1d51f0c17c951a99ae8545730b76
@@ -28,10 +28,16 @@ character groups, that it does not contain the same chars repeatedly
 or ascending or descending characters, or charcters close to each
 other in the keyboard. It will also attempt to search the ispell word
 file for existance of whole words. The module's policies can be
-modified by changing its variables. (Check "VARIABLES"). For doing it,
-it is recommended to import the ':all' shortcut when requiring it:
+modified by changing its variables. 
 
-#%description -l pl
+%description -l pl
+Ten modu³ sprawdza potencjalne has³a pod k±tem mo¿liwo¶ci ich
+z³amania. Sprawdza czy has³o ma odpowiedni± d³ugo¶æ, czy posiada
+odpowiedni± ilo¶æ grup zanków, czy nie zawiera tych samych znaków
+powtarzaj±cych siê rosn±co lub majêco lub znaków umiejscowionych
+blisko siebie na klawiaturze. Spróbuje tak¿e przeszukaæ s³ownik
+ispella pod k±tem istnienia ca³ych s³ów. Polityka modu³u mo¿e byæ
+modyfikowana za pomoc± odpowiednich zmiennych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
