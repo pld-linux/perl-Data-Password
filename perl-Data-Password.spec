@@ -33,8 +33,8 @@ modified by changing its variables.
 %description -l pl
 Ten modu³ sprawdza potencjalne has³a pod k±tem mo¿liwo¶ci ich
 z³amania. Sprawdza czy has³o ma odpowiedni± d³ugo¶æ, czy posiada
-odpowiedni± ilo¶æ grup zanków, czy nie zawiera tych samych znaków
-powtarzaj±cych siê rosn±co lub majêco lub znaków umiejscowionych
+odpowiedni± ilo¶æ grup znaków, czy nie zawiera tych samych znaków
+powtarzaj±cych siê rosn±co lub malej±co albo znaków umiejscowionych
 blisko siebie na klawiaturze. Spróbuje tak¿e przeszukaæ s³ownik
 ispella pod k±tem istnienia ca³ych s³ów. Polityka modu³u mo¿e byæ
 modyfikowana za pomoc± odpowiednich zmiennych.
