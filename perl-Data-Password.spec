@@ -8,13 +8,13 @@
 Summary:	Data::Password - Perl extension for assesing password quality
 Summary(pl):	Data::Password - rozszerzenie Perla zapewniaj±ce odpowiedni± jako¶æ hase³
 Name:		perl-%{pdir}-%{pnam}
-Version:	1.04
+Version:	1.05
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic	
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c62d1d51f0c17c951a99ae8545730b76
+# Source0-md5:	0fa2f19f5e4dbf3366396214a30ff634
 URL:		http://search.cpan.org/dist/Data-Password/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
