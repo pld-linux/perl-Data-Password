@@ -3,8 +3,8 @@
 %bcond_with	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Data
-%define	pnam	Password
+%define		pdir	Data
+%define		pnam	Password
 Summary:	Data::Password - Perl extension for assesing password quality
 Summary(pl):	Data::Password - rozszerzenie Perla zapewniaj±ce odpowiedni± jako¶æ hase³
 Name:		perl-%{pdir}-%{pnam}
