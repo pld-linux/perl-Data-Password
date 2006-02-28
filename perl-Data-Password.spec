@@ -11,7 +11,7 @@ Name:		perl-%{pdir}-%{pnam}
 Version:	1.05
 Release:	1
 # same as perl
-License:	GPL v1+ or Artistic	
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0fa2f19f5e4dbf3366396214a30ff634
@@ -28,7 +28,7 @@ character groups, that it does not contain the same chars repeatedly
 or ascending or descending characters, or charcters close to each
 other in the keyboard. It will also attempt to search the ispell word
 file for existance of whole words. The module's policies can be
-modified by changing its variables. 
+modified by changing its variables.
 
 %description -l pl
 Ten modu³ sprawdza potencjalne has³a pod k±tem mo¿liwo¶ci ich
