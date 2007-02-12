@@ -6,7 +6,7 @@
 %define		pdir	Data
 %define		pnam	Password
 Summary:	Data::Password - Perl extension for assesing password quality
-Summary(pl):	Data::Password - rozszerzenie Perla zapewniaj±ce odpowiedni± jako¶æ hase³
+Summary(pl.UTF-8):   Data::Password - rozszerzenie Perla zapewniajÄ…ce odpowiedniÄ… jakoÅ›Ä‡ haseÅ‚
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.05
 Release:	1
@@ -30,14 +30,14 @@ other in the keyboard. It will also attempt to search the ispell word
 file for existance of whole words. The module's policies can be
 modified by changing its variables.
 
-%description -l pl
-Ten modu³ sprawdza potencjalne has³a pod k±tem mo¿liwo¶ci ich
-z³amania. Sprawdza czy has³o ma odpowiedni± d³ugo¶æ, czy posiada
-odpowiedni± ilo¶æ grup znaków, czy nie zawiera tych samych znaków
-powtarzaj±cych siê rosn±co lub malej±co albo znaków umiejscowionych
-blisko siebie na klawiaturze. Spróbuje tak¿e przeszukaæ s³ownik
-ispella pod k±tem istnienia ca³ych s³ów. Polityka modu³u mo¿e byæ
-modyfikowana za pomoc± odpowiednich zmiennych.
+%description -l pl.UTF-8
+Ten moduÅ‚ sprawdza potencjalne hasÅ‚a pod kÄ…tem moÅ¼liwoÅ›ci ich
+zÅ‚amania. Sprawdza czy hasÅ‚o ma odpowiedniÄ… dÅ‚ugoÅ›Ä‡, czy posiada
+odpowiedniÄ… iloÅ›Ä‡ grup znakÃ³w, czy nie zawiera tych samych znakÃ³w
+powtarzajÄ…cych siÄ™ rosnÄ…co lub malejÄ…co albo znakÃ³w umiejscowionych
+blisko siebie na klawiaturze. SprÃ³buje takÅ¼e przeszukaÄ‡ sÅ‚ownik
+ispella pod kÄ…tem istnienia caÅ‚ych sÅ‚Ã³w. Polityka moduÅ‚u moÅ¼e byÄ‡
+modyfikowana za pomocÄ… odpowiednich zmiennych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
