@@ -6,7 +6,7 @@
 %define		pdir	Data
 %define		pnam	Password
 Summary:	Data::Password - Perl extension for assesing password quality
-Summary(pl.UTF-8):   Data::Password - rozszerzenie Perla zapewniające odpowiednią jakość haseł
+Summary(pl.UTF-8):	Data::Password - rozszerzenie Perla zapewniające odpowiednią jakość haseł
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.05
 Release:	1
