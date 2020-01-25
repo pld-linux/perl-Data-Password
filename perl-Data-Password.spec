@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Data
 %define		pnam	Password
 Summary:	Data::Password - Perl extension for assesing password quality
